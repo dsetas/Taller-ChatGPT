@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Revoluciona tu Enseñanza Cristiana</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1a237e;
+      color: white;
+      padding: 2em;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 2em;
+    }
+    .benefits, .audience, .modules {
+      margin: 2em 0;
+    }
+    ul {
+      padding-left: 1.5em;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 3em;
+    }
+    .cta a {
+      background-color: #3949ab;
+      color: white;
+      padding: 1em 2em;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .form-container {
+      margin-top: 2em;
+      text-align: center;
+    }
+    input[type="text"], input[type="email"] {
+      width: 80%;
+      max-width: 400px;
+      padding: 0.5em;
+      margin: 0.5em 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: #1a237e;
+      color: white;
+      border: none;
+      padding: 0.8em 2em;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Revoluciona tu Enseñanza Cristiana con IA</h1>
+    <p>Crea y personaliza tus clases con ChatGPT</p>
+  </header>
+
+  <section>
+    <p>Aprende a usar la inteligencia artificial de forma ética, creativa y centrada en la Palabra. Este curso está pensado para líderes, docentes y servidores del ministerio de enseñanza cristiana.</p>
+
+    <div class="benefits">
+      <h2>Beneficios del curso:</h2>
+      <ul>
+        <li>Diseña materiales bíblicos en minutos</li>
+        <li>Genera ideas para lecciones y devocionales</li>
+        <li>Ahorra tiempo sin perder profundidad</li>
+        <li>Personaliza el contenido para tu audiencia</li>
+      </ul>
+    </div>
+
+    <div class="audience">
+      <h2>¿Para quién es?</h2>
+      <p>Para maestros de escuela dominical, pastores, líderes de grupo y educadores cristianos con pasión por enseñar con excelencia y fidelidad.</p>
+    </div>
+
+    <div class="modules">
+      <h2>Contenido del curso:</h2>
+      <ul>
+        <li>Introducción a la IA y ChatGPT</li>
+        <li>Uso responsable y bíblico de la tecnología</li>
+        <li>Creación de materiales personalizados</li>
+        <li>Dinámicas prácticas para el aula cristiana</li>
+      </ul>
+    </div>
+
+    <div class="form-container">
+      <h2>Inscríbete ahora</h2>
+      <p>Déjanos tus datos para recibir toda la información y asegurar tu espacio.</p>
+      <form action="https://formspree.io/f/tu-codigo-aqui" method="POST">
+        <input type="text" name="nombre" placeholder="Tu nombre" required /><br />
+        <input type="email" name="email" placeholder="Tu correo electrónico" required /><br />
+        <input type="submit" value="Inscribirme" />
+      </form>
+    </div>
+
+    <div class="cta">
+      <a href="#inscripcion">¡Quiero participar!</a>
+    </div>
+  </section>
+
+</body>
+</html>
